@@ -55,3 +55,63 @@ let abc=100.1234.toFixed(2);
 console.log(abc);
 
 
+//changing array element 
+let fruits =["Apple", "Banana", "Orange","Strawberry"];
+fruits[0]="Kiwi";
+console.log(fruits);
+
+//pop array - removing last element
+let ami= ["Abrar","Fahim"];
+ami.pop("Fahim");
+var myNewName=ami;
+console.log(ami);
+
+//push
+let name1=["Sakib","al"];
+name1.push("Hasan");
+console.log(name1);
+
+
+//shift and unshift array of javaScript !
+let mobile=["Nokia","Samsung","iPhone","Sony"];
+mobile.shift(0,1);
+console.log("After shifting the first element: "+mobile);
+mobile.unshift("Airtel Phone");
+console.log("After adding new element to the array: "+mobile);
+
+//adding element to the last position of array
+let bikes=["Yamaha", "Honda", "Kawasaki","Ducati"];
+bikes[bikes.length]="MV Augusta";
+console.log("NEW : "+bikes);
+//usage of splice in javaScript
+bikes.splice(3,5,"Bajaj","KTM");
+console.log("Another New: "+bikes);
+
+
+//merging 3 array by concat()
+let bus=["Hanif","Saudia","Relax"];
+let cars3=["Toyota","BMW","Benz"];
+let bike2=["Yamaha","Honda","Ducati"];
+let allVehicles=bus.concat(cars3, bike2);
+console.log("After adding three arrays= "+allVehicles);
+//adding with already concated array ! :D 
+let ships=["Titanic","Saint Martin Paribahan","Sea Pearl"];
+let AllTogether=allVehicles.concat(ships);
+console.log("After adding all= "+AllTogether);
+
+//sorting array (low to high)
+let number21=[10,30,1,5,67,50,100];
+let sortedNumber21= number21.sort(
+    function(a,b){
+        return(a-b);
+    }
+)
+console.log(sortedNumber21);
+//sorting array ..... high to low
+let number34=[100,300,10,34,1,1000,2345,23743];
+let sortedNumber34=number34.sort(
+    function(a,b){
+        return(b-a);
+    }
+)
+console.log(sortedNumber34);
