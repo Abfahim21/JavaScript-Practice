@@ -14,3 +14,12 @@ console.log(y);
 let p = 5.987654;
 let q = p.toFixed(2);
 console.log(q);
+
+
+
+//There are 3 JavaScript methods that can be used to convert variables to numbers:
+//Number()-
+
+//parseInt()
+
+//parseFloat()
