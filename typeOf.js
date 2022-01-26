@@ -1,3 +1,9 @@
+//string
+//number
+//boolean
+//object
+//function
+
 let a = "Hello";
 let b = 34;
 let c= '';
