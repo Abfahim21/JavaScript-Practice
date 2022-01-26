@@ -39,3 +39,11 @@ let lastName1 = "Khan";
 let fullName1 = firstName1.concat(" "+lastName1);
 //for space i had to use " " this one on upper line
 console.log(fullName1);
+
+
+
+//trim() method removes unnecessary spaces
+let catName = "    Buntu   ";
+console.log(catName);
+let catName1 = catName.trim();
+console.log(catName1);
